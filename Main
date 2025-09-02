@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tidning</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div style="width:100px;height:100px;background-color:gray;border-radius:50%;display:inline-block;">
+                </div>
+            </td>
+            <td>
+                <b style="font-size:30px;">Tidningsnamn</b>
+            </td>
+        </tr>
+    </table>
+    <div style="text-align:left;">
+        <h2 style="display: inline;">Hem</h1>&nbsp;&nbsp;&nbsp;
+        <h2 style ="display: inline;">Senaste nytt</h1>&nbsp;&nbsp;&nbsp;
+        <h2 style ="display: inline;">Arkiv</h1>&nbsp;&nbsp;&nbsp;
+        <h2 style ="display: inline;">Kontakta oss</h1>&nbsp;&nbsp;&nbsp;
+    <div style="text-align:left;">
+        <h1 style="display:inline;">Huvudartikelns titel</h1> &nbsp;&nbsp;&nbsp;
+        <h1 style="display:inline;">Andra artikelns titel</h1>&nbsp;&nbsp;&nbsp;
+        <h1 style="display:inline;">Tredje artikelns titel</h1>
+    </div>
+    <div>
+        <img src="bild.jpg" alt="Beskrivande text för bilden" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;display:inline-block;">
+        <img src="bild.jpg" alt="Beskrivande text för bilden" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;display:inline-block;margin-left:300px;">
+        <img src="bild.jpg" alt="Beskrivande text för bilden" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;display:inline-block;margin-left:300px;">
+    </div>
+    <div style="text-align:left;">
+        <h3>
+            Carrot cake muffin donut cotton candy sugar plum. 
+            Biscuit caramels chupa chups gummi bears fruitcake marzipan chocolate. 
+            Tootsie roll cake bonbon bonbon sweet roll. 
+            Gummies chocolate bar pastry tiramisu chocolate sesame snaps. 
+            Cupcake biscuit jelly marshmallow liquorice bear claw fruitcake. 
+            Jelly donut gummies jelly beans bonbon. Ice cream cake croissant 
+            gummies candy canes icing pastry pastry. 
+            Cookie ice cream chocolate bonbon cheesecake cookie sweet roll pudding carrot cake. 
+            Chocolate bear claw caramels wafer sweet topping sweet.
+        </h3>
+        <h3>
+           Apple pie pie cupcake dessert lollipop icing toffee soufflé. Bonbon ice cream marshmallow sesame snaps chupa chups lemon drops.
+        </h3>
+        <h3>
+            Carrot cake muffin donut cotton candy sugar plum. 
+            Biscuit caramels chupa chups gummi bears fruitcake marzipan chocolate. 
+            Tootsie roll cake bonbon bonbon sweet roll. 
+            Gummies chocolate bar pastry tiramisu chocolate sesame snaps. 
+            Cupcake biscuit jelly marshmallow liquorice bear claw fruitcake. 
+            Jelly donut gummies jelly beans bonbon. Ice cream cake croissant 
+            gummies candy canes icing pastry pastry. 
+            Cookie ice cream chocolate bonbon cheesecake cookie sweet roll pudding carrot cake. 
+            Chocolate bear claw caramels wafer sweet topping sweet.
+
+            Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic.
+        </h3>
+        <h3>
+            Lorizzle ipsizzle phat shizzle my nizzle crocodizzle amizzle, yo mamma get down get down things. 
+            Nullam sapien velizzle, the bizzle shit, suscipit crackalackin, gravida cool, arcu. 
+            Pellentesque egizzle for sure. Sed erizzle.
+        </h3>
+    </div>
+    <div>
+        <h2>
+            Tipsa redaktionen
+        </h2>
+    </div>
+
+    <label for="namn">Ditt namn</label>
+    <input type="text" id="namn" />
+    <label for="epost">Din e-post</label>
+    <input type="text" id="epost" />
+    <label for="telefon">Din telefon</label>
+    <input type="number" id="telefon" />
+    <div>
+        <label for="Amne">Välj ditt ämne</label>
+        <select name="Amne" id="GDPR">
+            <option value="Ämne1">Ämne1</option>
+            <option value="Ämne2">Ämne2</option>
+            <option value="Ämne3">Ämne3</option>
+            <option value="Ämne4">Ämne4</option>
+        </select>
+    </div>
+    <div>
+        <label for="Meddelande">Ditt meddelande</label>
+        <textarea id="Meddelande" name="Meddelande" rows="4" cols="50" placeholder="Skriv ditt meddelande här..."></textarea>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Kontakta mig</label>
+    </div>
+    <div>
+        <button type="submit">Skicka</button>
+    </div>
+    <div>
+        <select name="GDPR" id="GDPR">
+            <option value="GDPR och vilkor">GDPR och vilkor</option>
+            <option value="GDPR1">GDPR2</option>
+            <option value="GDPR2">GDPR2</option>
+            <option value="GDPR3">GDPR2</option>
+        </select>
+    </div>
+
+    <div>
+        <h5>Företagsnman</h4>
+        <h5>Adress</h4>
+        <h5>Telefon</h4>
+        <h5>E-post</h4>
+        <h5>Sociala medier</h4>
+    </div>
+    <div>
+        <h5>Sitemap</h6>
+        <h5>Om oss</h6>
+    </div>  
+    <div>
+        <h6>Sociala medier</h6>    
+</body>
+
+</html>
